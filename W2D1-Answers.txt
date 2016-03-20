@@ -1,0 +1,50 @@
+//: # W2D1 - Functions
+//: 
+//: ## Challenge 1
+
+greet("Cory")
+greet("Danny")
+
+
+//: ## Challenge 2
+
+
+func pluralize(bicycleCount: Int) {
+    if bicycleCount == 1 {
+        print("There is \(bicycleCount) bicycle")
+    } else if (bicycleCount == 0) {
+        print("There are zero bicycles")
+    } else {
+        print("There are \(bicycleCount) bicycles")
+    }
+}
+
+
+//: ## Challenge 3
+
+
+func pluralizedString(bicycleCount: Int) -> String {
+    if bicycleCount == 1 {
+        return "There is \(bicycleCount) bicycle"
+    } else if (bicycleCount == 0) {
+        return "There are zero bicycles"
+    } else {
+        return "There are \(bicycleCount) bicycles"
+    }
+}
+
+
+
+//: ## Bonus Challenge
+
+
+func pluralizedWord(singular: String, pluralNoun: String, count: Int) -> String {
+    if count == 1 {
+        return "There is \(count) \(singular)"
+    } else if (count == 0) {
+        return "There are zero \(pluralNoun)"
+    } else {
+        return "There are \(count) \(pluralNoun)"
+    }
+}
+
