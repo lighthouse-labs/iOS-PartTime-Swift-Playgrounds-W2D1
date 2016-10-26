@@ -59,7 +59,7 @@ func increment(input: Int) -> Int {
     return newValue
 }
 
-var result = increment(10)
+var result = increment(input: 10)
 
 // In this example the returned Int is stored inside the variable `result`.
 
