@@ -2,8 +2,8 @@
 //: 
 //: ## Challenge 1
 
-greet("Cory")
-greet("Danny")
+greet(name: "Cory")
+greet(name: "Danny")
 
 
 //: ## Challenge 2
